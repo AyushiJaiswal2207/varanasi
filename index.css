@@ -1,0 +1,95 @@
+.navigation{
+    position: relative;
+    background-color: black;
+    height: 60px;
+    padding: 5px;
+    width: 100%;
+}
+ .navigation p
+{
+    margin-top: 10px;
+    float: right;
+    color: rgb(193, 198, 202);
+    font-size:1rem ;
+}
+
+
+
+
+.top-heading{
+    text-align: center;
+} 
+.intro img{
+    height: 200px;
+    width:250px ;
+}
+@media screen and (min-width:600px) {
+    .top-heading{
+        font-size: 50px;
+    }   
+    .place-to-visit{
+        margin-left: 50px;
+        
+    }
+    .card{
+        margin-left: 1px;
+    }
+
+}
+.place-to-visit{
+    position: relative;
+    width: 100%;
+    margin-left: 115px;
+}
+
+
+.card{
+    position: relative;
+    height: 300px;
+    width: 300px;
+   z-index: 1;
+   overflow: hidden;
+   float: left;
+   margin-left: 100px;
+   margin-top: 50px;
+}
+.card img{
+
+    height:300px; 
+    width:300px;
+}
+.content{
+    position: absolute;
+    z-index: 0;
+    top: 280px;
+    left: 5px;
+    background-color: rgb(241, 52, 52);
+    overflow: hidden;
+    transition:0.3s ease-in-out;
+ visibility: hidden;
+}
+.card:hover .content{
+    visibility: visible;
+    top: 5px;
+    }
+  
+ 
+
+a:link{
+    text-decoration: none;
+    color: rgb(45, 45, 126);
+
+}
+
+
+footer{
+    position: static;
+    float: left;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(23, 143, 133);
+    color: cornsilk;
+    bottom: 1px;
+    padding-top: 2px;
+}
